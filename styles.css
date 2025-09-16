@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Young Serif:wght@400&display=swap&family=Oufit:wght@400;600;700&display=swap');
+
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-rose-800: hsl(332, 51%, 32%);
+    --color-rose-50: hsl(330, 100%, 98%);
+    --color-stone-900: hsl(24, 5%, 18%);
+    --color-stone-600: hsl(30, 10%, 34%);
+    --color-stone-150: hsl(30, 18%, 87%);
+    --color-stone-100: hsl(30, 54%, 90%);
+    --color-brown-800: hsl(14, 45%, 36%);
+
+
+    --font-family-young-serif: 'Young Serif', serif;
+    --font-family-oufit: Oufit, sans-serif;
+
+    --font-line-height-preset-1: 100%;
+    --font-line-height-preset-2: 150%;
+
+    --font-letter-spacing-preset-1: 0;
+
+    --font-weight-preset-1: 400; /* Regular */
+    --font-weight-preset-2: 600; /* SemiBold */
+    --font-weight-preset-3: 700; /* Bold */
+
+
+    --font-text-preset-1: 2.5rem; /* 40px */
+    --font-text-preset-2: 1.75rem; /* 28px */
+    --font-text-preset-3: 1.25rem; /* 20px */
+    --font-text-preset-4: 1rem; /* 16px */
+
+
+    --spacing-preset-1600: 8rem; /* 128px */
+    --spacing-preset-600: 3rem; /* 48px */
+    --spacing-preset-500: 2.5rem; /* 40px */
+    --spacing-preset-400: 2rem; /* 32px */
+    --spacing-preset-300: 1.5rem; /* 24px */
+    --spacing-preset-200: 1rem; /* 16px */
+    --spacing-preset-150: 0.75rem; /* 12px */
+    --spacing-preset-100: 0.5rem; /* 8px */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    letter-spacing: var(--font-letter-spacing-preset-1);
+}
