@@ -25,6 +25,7 @@
 
 
     --font-text-preset-1: 2.5rem; /* 40px */
+    --font-text-mobile-preset-1: 2.25rem; /* 36px */
     --font-text-preset-2: 1.75rem; /* 28px */
     --font-text-preset-3: 1.25rem; /* 20px */
     --font-text-preset-4: 1rem; /* 16px */
@@ -68,4 +69,28 @@ article {
     flex-direction: column;
     gap: var(--spacing-preset-400);
     padding: var(--spacing-preset-500) var(--spacing-preset-400);
+}
+
+section {
+    &.title {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-preset-300);
+
+        h1 {
+            font-family: var(--font-family-young-serif);
+            font-size: var(--font-text-mobile-preset-1);
+            font-weight: var(--font-weight-preset-1);
+            line-height: var(--font-line-height-preset-1);
+            color: var(--color-stone-900);
+        }
+
+        p {
+            font-family: var(--font-family-oufit);
+            font-size: var(--font-text-preset-4);
+            font-weight: var(--font-weight-preset-1);
+            line-height: var(--font-line-height-preset-2);
+            color: var(--color-stone-600);
+        }
+    }
 }
