@@ -53,3 +53,12 @@ body {
     min-height: 100vh;
     letter-spacing: var(--font-letter-spacing-preset-1);
 }
+
+figure {
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
