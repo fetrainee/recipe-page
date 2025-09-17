@@ -62,3 +62,10 @@ figure {
         object-fit: cover;
     }
 }
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-preset-400);
+    padding: var(--spacing-preset-500) var(--spacing-preset-400);
+}
