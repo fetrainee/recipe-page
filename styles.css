@@ -223,19 +223,29 @@ figure {
 
 .nutrition-table__name {
     color: var(--color-text-secondary);
+    padding-left: var(--space-xl);
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .nutrition-table__value {
     font-weight: var(--font-weight-bold);
     color: var(--color-secondary);
+    padding-left: var(--space-md);
+    padding-top: var(--space-sm);
+    padding-bottom: var(--space-sm);
 }
 
 .recipe__nutrition table {
     border-collapse: collapse;
 }
 
-.recipe__nutrition td {
-    padding: var(--space-md);
+.recipe__nutrition tr:first-child td {
+    padding-top: 0;
+}
+
+.recipe__nutrition tr:last-child td {
+    padding-bottom: 0;
 }
 
 .recipe__nutrition tr:not(:last-child) {
