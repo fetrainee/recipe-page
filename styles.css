@@ -130,12 +130,13 @@ figure {
     flex-direction: column;
     gap: var(--space-xs);
     color: var(--color-text-secondary);
-    list-style-position: inside;
-    padding-left: var(--space-xs);
+    list-style-position: outside;
 }
 
 .recipe__preparation li {
     color: var(--color-text-primary);
+    margin-left: var(--space-lg);;
+    padding-left: var(--space-md);;
 }
 
 .recipe__preparation li b {
@@ -167,6 +168,7 @@ figure {
 .recipe__ingredients li {
     color: var(--color-text-secondary);
     margin-left: var(--space-lg);
+    padding-left: var(--space-md);
 }
 
 .recipe__instructions {
