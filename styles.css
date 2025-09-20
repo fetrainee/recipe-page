@@ -258,3 +258,30 @@ hr {
     background-color: var(--color-border);
     border: none;
 }
+
+/* Tablet  */
+@media (min-width: 768px) {
+    main {
+        background-color: var(--color-surface);
+        max-width: 616px;
+        padding: var(--space-2xl);
+        border-radius: 1.5rem;
+    }
+
+    body {
+        background-color: var(--color-background);
+        padding: var(--space-8xl) var(--space-3xl);
+    }
+
+    figure img {
+        height: 300px;
+        border-radius: 0.75rem;
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    main {
+        max-width: 736px;
+    }
+}
