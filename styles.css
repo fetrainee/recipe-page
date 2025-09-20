@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Young Serif:wght@400&display=swap&family=Oufit:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young Serif:wght@400&display=swap&family=Outfit:wght@400;600;700&display=swap');
 
 :root {
     --color-white: hsl(0, 0%, 100%);
@@ -12,7 +12,7 @@
 
 
     --font-family-young-serif: 'Young Serif', serif;
-    --font-family-oufit: Oufit, sans-serif;
+    --font-family-outfit: Outfit, sans-serif;
 
     --font-line-height-preset-1: 100%;
     --font-line-height-preset-2: 150%;
@@ -86,7 +86,7 @@ section {
         }
 
         p {
-            font-family: var(--font-family-oufit);
+            font-family: var(--font-family-outfit);
             font-size: var(--font-text-preset-4);
             font-weight: var(--font-weight-preset-1);
             line-height: var(--font-line-height-preset-2);
@@ -103,7 +103,7 @@ section {
         border-radius: 0.75rem;
 
         h2 {
-            font-family: var(--font-family-oufit);
+            font-family: var(--font-family-outfit);
             font-size: var(--font-text-preset-3);
             font-weight: var(--font-weight-preset-2);
             line-height: var(--font-line-height-preset-1);
@@ -120,7 +120,7 @@ section {
         }
 
         li {
-            font-family: var(--font-family-oufit);
+            font-family: var(--font-family-outfit);
             font-size: var(--font-text-preset-4);
             font-weight: var(--font-weight-preset-1);
             line-height: var(--font-line-height-preset-2);
@@ -155,7 +155,7 @@ section {
         }
 
         li {
-            font-family: var(--font-family-oufit);
+            font-family: var(--font-family-outfit);
             font-size: var(--font-text-preset-4);
             font-weight: var(--font-weight-preset-1);
             line-height: var(--font-line-height-preset-2);
@@ -186,7 +186,7 @@ section {
         }
 
         li {
-            font-family: var(--font-family-oufit);
+            font-family: var(--font-family-outfit);
             font-size: var(--font-text-preset-4);
             font-weight: var(--font-weight-preset-1);
             line-height: var(--font-line-height-preset-2);
@@ -214,7 +214,7 @@ section {
         }
 
         p {
-            font-family: var(--font-family-oufit);
+            font-family: var(--font-family-outfit);
             font-size: var(--font-text-preset-4);
             font-weight: var(--font-weight-preset-1);
             line-height: var(--font-line-height-preset-2);
@@ -222,7 +222,7 @@ section {
         }
 
         .table__name {
-            font-family: var(--font-family-oufit);
+            font-family: var(--font-family-outfit);
             font-size: var(--font-text-preset-4);
             font-weight: var(--font-weight-preset-1);
             line-height: var(--font-line-height-preset-2);
@@ -230,7 +230,7 @@ section {
         }
 
         .table__value {
-            font-family: var(--font-family-oufit);
+            font-family: var(--font-family-outfit);
             font-size: var(--font-text-preset-4);
             font-weight: var(--font-weight-preset-3);
             line-height: var(--font-line-height-preset-2);
