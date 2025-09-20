@@ -68,20 +68,20 @@ figure {
     }
 }
 
-article {
+.recipe {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-preset-400);
     padding: var(--spacing-preset-500) var(--spacing-preset-400);
 }
 
-.title {
+.recipe__title {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-preset-300);
 }
 
-.title h1 {
+.recipe__title h1 {
     font-family: var(--font-family-young-serif);
     font-size: var(--font-text-mobile-preset-1);
     font-weight: var(--font-weight-preset-1);
@@ -89,11 +89,11 @@ article {
     color: var(--color-stone-900);
 }
 
-.title p {
+.recipe__title p {
     color: var(--color-stone-600);
 }
 
-.preparation {
+.recipe__preparation {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-preset-200);
@@ -102,7 +102,7 @@ article {
     border-radius: 0.75rem;
 }
 
-.preparation h2 {
+.recipe__preparation h2 {
     font-family: var(--font-family-outfit);
     font-size: var(--font-text-preset-3);
     font-weight: var(--font-weight-preset-2);
@@ -110,7 +110,7 @@ article {
     color: var(--color-rose-800);
 }
 
-.preparation ul {
+.recipe__preparation ul {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-preset-100);
@@ -119,21 +119,21 @@ article {
     padding-left: var(--spacing-preset-100);
 }
 
-.preparation li {
+.recipe__preparation li {
     color: var(--color-stone-900);
 }
 
-.preparation li b {
+.recipe__preparation li b {
     font-weight: var(--font-weight-preset-3);
 }
 
-.ingredients {
+.recipe__ingredients {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-preset-300);
 }
 
-.ingredients h2 {
+.recipe__ingredients h2 {
     font-family: var(--font-family-young-serif);
     font-size: var(--font-text-preset-2);
     font-weight: var(--font-weight-preset-1);
@@ -141,7 +141,7 @@ article {
     color: var(--color-brown-800);
 }
 
-.ingredients ul {
+.recipe__ingredients ul {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-preset-100);
@@ -149,18 +149,18 @@ article {
     list-style-position: outside;
 }
 
-.ingredients li {
+.recipe__ingredients li {
     color: var(--color-stone-600);
     margin-left: var(--spacing-preset-300);
 }
 
-.instructions {
+.recipe__instructions {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-preset-300);
 }
 
-.instructions h2 {
+.recipe__instructions h2 {
     font-family: var(--font-family-young-serif);
     font-size: var(--font-text-preset-2);
     font-weight: var(--font-weight-preset-1);
@@ -168,7 +168,7 @@ article {
     color: var(--color-brown-800);
 }
 
-.instructions ol {
+.recipe__instructions ol {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-preset-100);
@@ -176,23 +176,23 @@ article {
     margin-left: var(--spacing-preset-300);
 }
 
-.instructions li {
+.recipe__instructions li {
     color: var(--color-stone-600);
     padding-left: var(--spacing-preset-200);
 }
 
-.instructions li::marker {
+.recipe__instructions li::marker {
     color: var(--color-brown-800);
     font-weight: var(--font-weight-preset-3);
 }
 
-.nutrition {
+.recipe__nutrition {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-preset-300);
 }
 
-.nutrition h2 {
+.recipe__nutrition h2 {
     font-family: var(--font-family-young-serif);
     font-size: var(--font-text-preset-2);
     font-weight: var(--font-weight-preset-1);
@@ -200,28 +200,28 @@ article {
     color: var(--color-brown-800);
 }
 
-.nutrition p {
+.recipe__nutrition p {
     color: var(--color-stone-600);
 }
 
-.table__name {
+.nutrition-table__name {
     color: var(--color-stone-600);
 }
 
-.table__value {
+.nutrition-table__value {
     font-weight: var(--font-weight-preset-3);
     color: var(--color-brown-800);
 }
 
-.nutrition table {
+.recipe__nutrition table {
     border-collapse: collapse;
 }
 
-.nutrition td {
+.recipe__nutrition td {
     padding: var(--spacing-preset-200);
 }
 
-.nutrition tr:not(:last-child) {
+.recipe__nutrition tr:not(:last-child) {
     border-bottom: 0.0625rem solid var(--color-stone-150);
 }
 
