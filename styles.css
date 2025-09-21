@@ -224,8 +224,8 @@ figure {
 .nutrition-table__name {
     color: var(--color-text-secondary);
     padding-left: var(--space-xl);
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: var(--space-sm);
+    padding-bottom: var(--space-sm);
 }
 
 .nutrition-table__value {
