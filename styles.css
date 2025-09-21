@@ -277,6 +277,15 @@ hr {
         height: 300px;
         border-radius: 0.75rem;
     }
+
+    .recipe {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .recipe__title h1 {
+        font-size: var(--font-size-xl);
+    }
 }
 
 /* Desktop */
